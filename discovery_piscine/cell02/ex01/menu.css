@@ -1,0 +1,40 @@
+*{
+	margin: 5;
+	padding: 5;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+body {
+	background-color: #e09792;
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+}
+
+select {
+	appearance: base-select;
+	background-color: #81a9db;
+	font-size: 30px;
+}
+
+::picker(select)
+{
+	appearance: base-select;
+	border-radius: 15px;
+	background-color: #879fe0;
+}
+
+select::picker-icon
+{
+	appearance: base-select;
+	font-size: 2.2rem;
+	align-content: center;
+	transition: 150ms ease;
+	content: "↻";
+}
+
+select:open::picker-icon {
+	rotate: 180deg;
+}

@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+body
+{
+    background-color: azure;
+   
+}
+
+div
+{
+    background: rgb(24, 149, 211);
+}
+
+
+
+.inputBox
+{
+    gap: 120px;
+    display: flex;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+
+.calc
+{
+    border-radius: 10%;
+    justify-items: center;
+    margin: auto;
+    align-content: center;
+	align-items: center;
+    height: 300px;
+    width: 600px;
+    
+}
+
+.button
+{
+    font-size: 32px;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(188, 140, 140);
+    border: 1px solid black ;
+}
+
+.tryMe
+{
+    align-content: center;
+    text-align: center;
+    background: center;
+    background-color: blanchedalmond;
+    font-size: 50px;
+
+
+}
