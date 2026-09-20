@@ -8,12 +8,15 @@ body{
     width: 300px;
     height: 300px;
     border: 1px solid black;
+	border-radius: 25%;
+	
 }
 
 .header3Centered
 {
     text-align: left;
-    margin: auto;
+    padding-left: 90px;
+	
 }
 
 .parallax
@@ -39,7 +42,7 @@ body{
 .nameInline
 {
 	font-size: 40px;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	padding: 30px;
 }
@@ -50,4 +53,9 @@ body{
 	display: inline-block;
 	text-align: right;
 	padding: 30px;
+}
+
+.profleJump
+{
+	
 }
