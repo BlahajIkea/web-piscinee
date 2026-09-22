@@ -1,61 +1,122 @@
-body{
-    font-family: monospace;
+@font-face {
+	font-family: myFont;
+	src: url(storage/Spartan.ttf);
 }
 
-.resizeMyPFP
+* {
+	font-family: myFont;
+}
+
+img 
 {
-	display: inline;
+	max-width: 30vh;
+	max-height: auto;
+}
+
+.row
+{
+	justify-content: center;
+}
+.container
+{
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.contact
+{
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	gap: 1vw;
+}
+
+.split
+{
+	margin: 1vh;
+}
+
+.forProfile
+{
+	height: auto;
+	margin: 50px;
+	background-color: rgb(24, 89, 146);
+	flex: auto;
+}
+
+.cardBg
+{
+	background-color: #c2cfdc;
+}
+
+.seperatorYellow{
+	/* background-color: #ffdb01; */
+	background-color: #ffdb01;
+	width: 100vw;
+	height: 7vh;
+}
+
+.pfpSize
+{
+	display: flex;
     width: 300px;
     height: 300px;
-    border: 1px solid black;
 	border-radius: 25%;
+}
+
+.expBigFont
+{
+	display: flex;
+	font-size: 1rem;
+	gap: 15px;
+	font-weight: bold;
 	
 }
 
-.header3Centered
+.expSmallFont
 {
-    text-align: left;
-    padding-left: 90px;
-	
+	font-weight: lighter;
+	font-size: 0.7rem;
+	gap: 10;
 }
+
+.photos
+{
+	align-items: center;
+	justify-content: center;
+}
+
+
+
 
 .parallax
 {
+	background-color: #0057a4;
 	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url("ikea.jpg");
-	min-height: 600px;
+	background-image: url("storage/mikael.png");
+	min-height: 700px;
 	border-collapse: collapse;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
+
 }
 
-.descriptionSize
-{
-    font-size: 34px;
+li{
+	list-style: none;
+	color: white
 }
 
-.nameInline
+.navBarCustom > nav > div > li
 {
-	font-size: 40px;
-	display: block;
-	text-align: center;
-	padding: 30px;
-}
-
-.employment
-{
-	font-size: 40px;
-	display: inline-block;
-	text-align: right;
-	padding: 30px;
-}
-
-.profleJump
-{
+	background-color: rgb(0, 0, 0);
+	border-radius: 50%;
+	padding: 2%;
 	
 }
+

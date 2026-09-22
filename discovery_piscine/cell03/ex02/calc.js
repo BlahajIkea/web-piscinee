@@ -42,7 +42,6 @@ document.getElementById("tryMe").addEventListener("click", function() {
     var a = Number(leftDis.value);
     var b = Number(rightDis.value);
     
-    
     if((operation == "mod" || operation == "divide") && result == 0)
     {
         alert("IT'S OVER 9000!");
@@ -84,8 +83,6 @@ document.getElementById("tryMe").addEventListener("click", function() {
         alert("ERROR :(");
         return;
     }
-    
-    
     
     console.log(result);
     alert(result);

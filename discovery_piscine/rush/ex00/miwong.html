@@ -1,49 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Straight Up Ikea</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="miwong.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-</div>
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>IKEA STOLEN</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="miwong.css">
 
-  <div class="jumbotron text-center">
-    <div class="parallax"> </div>
-    <h1>Who Am I</h1>
-    <p> Hey, I am a programmer from Kuala Lumpur</p> 
-  </div>
-
-
-  <div class="container">
-    <div class="card">
-      <div class="card-body"> </div>
-          <div class="card-body">
-            <h2 class="card-title">Hi this is me!! </h2>
-            <div ></div>
-            <h3 class="card-subtitle text-body-secondary">My Face:</h6>
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navBarCustom">
+        <nav class="navbar fixed-top navbar-light col-lg-3 col-md-3 col-sm-12">
+          <div class="container-fluid">
+              <li class="nav-item">
+                  <a class="nav-link" href="landing.html">Home</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#exp" aria-current="page">Experiences
+                    <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#socials">Socials</a>
+                </li>
           </div>
-          
-          <img class="resizeMyPFP" src="blahaj.jpeg" alt="Blahaaj PFP">
+        </nav>
+      </div>
+    </header>
+    <main>
+      
+      <div class="parallax"></div>
+      <div class="seperator"></div>
+  
 
-          <div class="card-body">
-            <p class="card-text">I am a software developer on</p>
+  <section id="profile">
+
+    <div class="container forProfile">
+      <div class="card mx-auto" style="width: 50%;">
+        <img class="card-img-top" src="storage/blahaj.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">Mikael Wong</h4>
+          <p class="card-text">
+                Hi. Welcome to my page !
+                I have been a programmer for over 6+ years 
+                doing projects in: 
+          </p>
+        <div class="card-text">
+          <p>
+            C++. C. Gdscript. JavaScript. CSS. HTML. 
+          </p>
+            </div>
+
+            <div class="card-footer"> 
+                  I like sharks!!
+                  I am also
+                  Unemployed
+            </div>
+        </div>
+      </div>
+    </div>
+        
+    
+  </section>
+      <div class="seperatorYellow"> </div>
+      
+
+  <section id="exp">
+    <div class="container text-center">
+      <div class="row">
+        <!-- </div> THIS IS WHERE THE FIRST EXP STARTS-->
+        <div class="col-lg-4 col-sm-12">
+            <div class="row-cols">
+              <div class="col-12">
+                <h2>
+                  3d Printing
+                </h2>
+                  <p>
+                    I have been doing 3D printing since COVID-19
+                    to help make faceshields for fontliners during the pandemic.
+                  </p>
+              </div>
+              <div class="col-4">
+                <img src="storage/myPrint.png" alt="">
+              </div>
+              <div class="col-4">
+                <img src="storage/3dPrint.png" alt="">
+              </div>
+            </div>
           </div>
-    </div>
+      <!-- </div> THIS IS WHERE THE FIRST EXP ENDS -->
+      
+
+    <!-- </div> THIS IS WHERE THE SECOND EXP STARTS -->
+    <div class="col-lg-4 col-sm-12">
+      <div class="row-cols">
+        <div class="col-12">
+          <h2>
+            Editing
+          </h2>
+            <p>
+              I have over 3 years of experience editing videos 
+              for my own projects and assignments.
+              I will often use Davinci Resolve and Final Cut Pro.
+            </p>
+        </div>
+        <div class="col-4">
+          <img src="storage/editing.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="storage/yap.png" alt="">
+        </div>
+        </div>
+      </div>
+      <!-- THIS IS WHERE THE SECOND EXP ENDS -->
+      
+
+    <!-- </div> THIS IS WHERE THE THIRD EXP STARTS -->
+    <div class="col-lg-4 col-sm-12">
+      <div class="row-col">
+        <div class="col-12">
+          <h2>
+            GameDev
+          </h2>
+          <p>
+            I have been in gamejams for about 4 years.
+            Using both Unity and Godot for GameDev and Aseprite for spritework.
+            I have jammed in APU, EXOLLA HQ and other venues.
+            </p>
+          </div>
+          <div class="col-4">
+            <img src="storage/gamedev.png" alt="">
+          </div>
+          <div class="col-4">
+            <img src="storage/comic.png" alt="">
+          </div>
+        
+        </div>
+      </div>
+    <!-- THIS IS WHERE THE THIRD EXP ENDS -->
+
   </div>
-    </div>
-  </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="seperatorYellow"> </div>
+      <section id="socials" class="contact">
+        <div class="container">
+          <div>
+            <h1>
+                Contact me !
+            </h1>
+          </div>
+        <div>
+          <a href="https://www.youtube.com/@PythonTheSharkySnake">
+            <img src="storage/youtube.png">
+          </a>
+          <a href="https://www.tumblr.com/lover-of-botatoes">
+            <img src="storage/tumblr.png">
+          </a>
+          <a href="https://pythongamerzzz.itch.io/">
+            <img src="storage/itch.png">
+          </a>
+        </div>
+       
+        <div">
+            Go click on them lol :p
+        </div>
+      </section>
+        </footer>
+      
 
 
- 
-
-
-
-
-
-</body>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
